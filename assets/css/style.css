@@ -1,0 +1,41 @@
+body {
+    height: 100vh;
+    background-image: linear-gradient(to right top, #370519, #561540, #6a3074, #6552af, #127aeb);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjx9QznfhLbTFkAYblrQQXgiQmzHcU86wkKQ&usqp=CAU');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#swal.swal2-height-auto {
+    height: 100vh !important;
+}
+
+.gradient {
+    background: rgb(63, 94, 251);
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+}
+
+.gradient-02 {
+    background : rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+header {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #4070f4;
+}
+
+@media all and (max-width : 768px){
+    body {
+        height:100%;
+    }
+}
